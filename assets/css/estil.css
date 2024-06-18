@@ -1,0 +1,183 @@
+
+body{
+    display:flex;
+    flex-direction: column;
+    font-family: 'Outfit';
+    
+   align-items: center;
+    color:rgb(85, 62, 62) ;
+    background-color:#f3e5d8 ;
+   margin-top: 100px;
+
+    
+}
+
+main{
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.general{
+    
+    background-color: white;
+    border-radius:15px ;
+    width:60%;
+    min-width: 360px;
+    
+}
+
+.container{
+    padding:0 50px 0 50px;
+}
+
+/*para centrar la cabecera verticalmente y horizontalmente*/
+header{
+    padding: 50px 0 10px 0;
+    display: flex;
+    justify-content: center;
+}
+.cabecera{
+    border-radius: 15px;
+    width: 90%;
+   
+    
+    
+}
+
+h1{
+    font-size: 50px;
+    font-family: 'Young Serif';
+    color: black;
+    margin-bottom: 20px;
+    /*min-width: 30px;*/
+}
+
+
+
+.caja{
+    background:#fff7fc;
+    border-radius:10px;
+    padding: 20px 0 10px 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    
+}
+
+.subtitulo{
+    color: rgb(114, 11, 97);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 0 0 50px;
+}
+
+.preparacion{
+    line-height: 30px;
+    padding-left: 15px;
+    /*font-size: 15px;*/
+    
+    
+}
+
+.negrita{
+    font-weight: bold;
+    color:rgb(85, 62, 62) ;
+}
+
+h2{
+    color:brown;
+    font-size: 40px;
+    font-family: 'Young Serif';
+    padding-left: 50px;
+    font-weight: bold;
+}
+ul.preparacion{
+   /* list-style-position: inside;*/
+   margin-left: 40px;
+
+}
+
+/*ul.preparacion li{
+    padding-left: 40px;
+}*/
+
+
+ul{
+    
+    line-height:30px;
+    padding-left: 50px;
+}
+
+ul li{
+    padding-left: 20px;
+}
+
+hr{
+    color:beige;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+ol{
+    padding-left: 50px;
+}
+
+ol li{
+    font-weight: bold;
+    line-height: 30px;
+    color:brown;
+    padding-left: 20px;
+    padding-right:50px;
+    
+
+}
+
+.normal{
+    font-weight: normal;
+    color:rgb(85, 62, 62) ;
+}
+
+.contenedor{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:100%;
+    margin-bottom: 20px;
+    padding-left: 50px;
+}
+
+section{
+    width: 50%;
+}
+
+.valor{
+    width: 50%;
+    color: brown;
+    font-weight: bold;
+}
+
+ul.preparacion li::marker{
+    
+    color:rgb(114, 11, 97);
+   
+}
+
+.paragrafo{
+    padding-left: 50px;
+    padding-bottom: 20px;
+    padding-right:50px;
+}
+
+/*article{
+    margin-left:50px;
+    margin-bottom:20px;
+    margin-top: 20px;
+    margin-left: 10px;
+}*/
+
+li::marker{
+    margin-left: 10px;
+    border-left: 10px;
+}
